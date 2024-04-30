@@ -15,12 +15,13 @@ namespace Demo
         public Form1()
         {
             InitializeComponent();
-            MessageBox.Show("OKKK");
+           
         }
 
         
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            MessageBox.Show("OKKK");
             System.Diagnostics.Process.Start("chrome", "https://www.google.com/");
 
         }
