@@ -21,9 +21,14 @@ namespace Demo
         
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("OKKK");
+            
             System.Diagnostics.Process.Start("chrome", "https://www.google.com/");
 
+        }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You are Click on Submit Button..");
         }
     }
 }
